@@ -22,6 +22,7 @@
 
 
 ## Passport
+* helpers for handling authentication
 * Using only Google Strategy
 * http://www.passportjs.org/docs/google/
 
@@ -46,3 +47,4 @@
 * using mongoose.js
     * model classes and instances
     * mongoose wants a defined schema, so we lose out on mongobd's schema-less-ness
+    * 
