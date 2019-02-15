@@ -54,6 +54,8 @@
 
 ## Create React App
 * https://github.com/facebook/create-react-app
-* react server, webpack, babel
+* react server, webpack, babel, live re-load dev stuff
 * client side - another package.json file
-*
+* `cd client`
+    * `npm run build`
+        * compiles into `/client/build`
