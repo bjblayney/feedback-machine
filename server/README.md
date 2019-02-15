@@ -59,3 +59,9 @@
 * `cd client`
     * `npm run build`
         * compiles into `/client/build`
+* index.js - Data layer control (Redux)
+* app.js - Redndering layer control (React Router)
+
+### Redux
+
+### React Router

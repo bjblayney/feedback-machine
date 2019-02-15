@@ -32,19 +32,10 @@ passport.use(
                 //tell passport we are done
                 return done(null, existingUser);
             }
-            
+
             //no record, make a new model instance/new model
             const user = await new User({ googleId: profile.id }).save()
             done(null, user);
         }
     )
 );
-
-// async function fetchAlbums() {
-//     const res = await fetch('https://rallycoding.herokuapp.com/api/music_albums');
-//     const json = await res.json();
-
-//     console.log(json);
-// }
-
-// fetchAlbums();
