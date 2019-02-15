@@ -19,6 +19,7 @@
 * https://dashboard.heroku.com/apps
 * https://young-fortress-55419.herokuapp.com/
 * https://git.heroku.com/young-fortress-55419.git
+* Holds prod env variables _Config Vars_
 
 
 ## Passport
