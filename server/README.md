@@ -13,6 +13,7 @@
 ## Express
 * http utility
 * app.get 
+* gets and serves us the json data
 
 
 ## Heroku staging
@@ -49,3 +50,10 @@
     * model classes and instances
     * mongoose wants a defined schema, so we lose out on mongobd's schema-less-ness
     * 
+
+
+## Create React App
+* https://github.com/facebook/create-react-app
+* react server, webpack, babel
+* client side - another package.json file
+*
